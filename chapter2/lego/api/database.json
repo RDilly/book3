@@ -1,4 +1,14 @@
 {
+  "colors": [
+    {
+      "1": "red",
+      "2": "green",
+      "3": "yellow",
+      "4": "blue",
+      "5": "orange",
+      "6": "black"
+    }
+  ],
   "legoCreation": [
     {
       "id": 1,
@@ -6,5 +16,27 @@
       "color": "Black",
       "shape": "Animal",
       "creation": "Black Cow"
+    },
+    {
+      "creator": "",
+      "color": "1",
+      "shape": "",
+      "creation": "",
+      "id": 2
+    },
+    {
+      "creator": "asdfasdf",
+      "color": "undefined",
+      "shape": "asdf",
+      "creation": "asdf",
+      "id": 3
+    },
+    {
+      "creator": "asdf",
+      "color": "undefined",
+      "shape": "asdf",
+      "creation": "asdf",
+      "id": 4
     }
-  ]}
+  ]
+}
