@@ -10,5 +10,10 @@
     }
 */
 
-importScripts(account.js)
+const ip = []
 
+accounts.forEach(element => {
+    ip.push(element.last_login.ip4)
+});
+
+console.table(ip)
