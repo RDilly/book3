@@ -5,3 +5,5 @@ const ContactHTML = (name, phoneNumber, address) => {
     </div>    
     `
 }
+
+//This is the Contact HTML factory

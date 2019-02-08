@@ -6,3 +6,5 @@ const RenderContacts2DOM = (ContactFactory).forEach( person => {
 })
 
 export default RenderContacts2DOM
+
+//this renders contacts to DOM
