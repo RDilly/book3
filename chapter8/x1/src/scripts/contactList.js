@@ -1,12 +1,12 @@
 //imports function form contact
 import contact from "./contact"
 //imports contactCollection object from contact collection
-import contactCollectionGet from "./contactCollection"
+import contactCollection from "./contactCollection"
 
 
 const contactList = () => {
     //invokes the .get method on the imported object
-    contactCollectionGet()
+    contactCollection.get()
         .then(
             (parsedInfo) => {
                 //loops over the array

@@ -1,5 +1,5 @@
 //imports the contactCollection object
-import contactCollectionPost from "./contactCollection"
+import contactCollection from "./contactCollection"
 
 const contactForm = () => {
     //captures the user input values
@@ -13,7 +13,7 @@ const contactForm = () => {
         email: email
     }
     //invokes the post method on the contactCollection object and passes it the newly created contact object
-    contactCollectionPost(contactObject)
+    contactCollection.post(contactObject)
 }
 //exports the contactForm function
 export default contactForm
